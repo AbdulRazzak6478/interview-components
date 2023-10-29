@@ -102,7 +102,7 @@
         overflow: hidden;
     }
     .img-card{
-        object-fit: contain;
+        object-fit: cover;
     }
     .carousel-left-arrow, .carousel-right-arrow{
         width: 30px;
@@ -131,7 +131,7 @@
         height: 175px;
     }
     .img-card{
-        object-fit: contain;
+        object-fit: cover;
     }
     .carousel-left-arrow, .carousel-right-arrow{
         width: 30px;
