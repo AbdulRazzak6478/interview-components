@@ -1,0 +1,113 @@
+.signup{
+    max-width: 768px;
+    margin: 2em auto;
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,.3);
+    padding: 1em;
+}
+  
+.title{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+form{
+    /* width: 300px; */
+    /* margin : 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+form .field{
+    margin-bottom: 5px;
+}
+  
+.field div{
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+.field .solve{
+    font-size: 10px;
+    margin-top: 3px;
+    visibility: hidden;
+} 
+  /* .field .solve{
+    height: 10px;
+  } */
+.field .error{
+    color: red;
+    font-size: 10px;
+    margin-top: 3px;
+}
+  
+.field input{
+    padding: 5px 10px;
+    border:2px solid rgba(14, 13, 13,.7);
+    border-radius: 5px;
+    width: 100%;
+}
+  
+.field input:focus-visible{
+    outline:blue;
+    border : 2px solid blue;
+}
+  
+.register{
+    outline:none;
+    border:none;
+    max-width: 250px;
+    /* margin-left: 20px; */
+    width:100px;
+    padding: 7px 10px;
+    color: white;
+    font-size: 15px;
+    background-color: blue;
+    border-radius:5px;
+    cursor: pointer;
+}
+  
+.register:hover{
+    background-color: rgb(58, 58, 117);
+}
+.load{
+    background-color: green;
+}
+.load:hover{
+    background-color: rgb(78, 135, 78);
+}
+
+.options{
+    margin-top: 1rem;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+}
+.up{
+    font-size: 10px;
+    margin-right: 10px;
+}
+.up span{
+    font-size: 13px;
+    color:red;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.forget{
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: bolder;
+    color:blue;
+    cursor: pointer;
+}
+.sign{
+    width : 100%;
+    box-sizing: border-box;
+}
+.up a{
+    text-decoration: none;
+}

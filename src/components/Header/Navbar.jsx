@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import { FiMenu } from 'react-icons/fi';
 import { CgClose } from 'react-icons/cg';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     const [showNavList,setShowNavList] = useState(false);
     function toggleNavList(){
@@ -31,10 +32,14 @@ const Navbar = () => {
                     <a href="#resume" className='link nav-link'>Resume</a>
                 </li>
                 <li className='nav-list-item'>
+                    <Link to="/signup">
                         <button className='btn'>SignUp</button>
+                    </Link>
                 </li>
                 <li className='nav-list-item'>
+                    <Link to="/signin">
                         <button className='btn'>LogIn </button>
+                    </Link>
                 </li>
             </ul>
             <button
